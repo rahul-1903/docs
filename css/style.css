@@ -3,7 +3,6 @@
 }
 
 
-
 .navbar-head{
     font-size: 40px;
     color: purple;
@@ -22,14 +21,17 @@
     
 }
 
-
+.li{
+	float: right;
+	position: fixed;
+}
 
 ul li{
     padding: 5px;
     font-size: 20px;
 }
 ul li:hover{
-    background: silver;
+    background: purple;
     transition: 1s;
 }
 
@@ -58,8 +60,8 @@ ul li:hover{
 }
 
 .black{
-    border: 3px white solid;
-    width: 60%;
+    border: 4px white solid;
+    width: 55%;
     margin-left: 0;
     position: absolute;
 }
@@ -139,9 +141,8 @@ textarea{
 textarea:hover,
 textarea:active,
 textarea:focus{
-    border-bottom: 3px solid silver;
+    border-bottom: 2px solid silver;
     border-color: none;
-    resize: none;
 }
 
 
@@ -172,22 +173,12 @@ textarea:focus{
     font-weight: 700;
 }
 
-.heading-right{
-    font-size: 25px;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    font-weight: 700;
-}
-
-
 .under-heading{
     color: white;
     font-size: 25px;
-    text-align: center;
 }
 .under-heading i{
-    color: darkslategrey;
+    color: grey;
 }
 .under-heading i:hover{
     font-size: 30px;
@@ -199,12 +190,6 @@ textarea:focus{
     text-decoration: none;
     
 }
-
-.circle{
-    border-radius: 50%;
-    
-    border: 1px solid black;
-}
 a:hover{
     color: purple;
     transition: 0.5s;
@@ -215,10 +200,47 @@ a i:hover{
     transition: 0.5s;
     font-size: 30px;
 }
+.heading-right{
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+    margin-left: -60px;
+    font-weight: 700;
+}
 
 .editing{
     padding: 50px;
     font-size: 30px;
     background: purple;
     color: white;
+}
+
+.color{
+    color: blue;
+    background: blue;
+    border: 2px solid black;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img 
+        {
+          width: 70%;
+          margin: auto;
+          color: grey;
+}
+
+
+.blue{
+    color: blue;
+    background: silver;
+}
+.green{
+    
+}
+
+.carousel{
+    width: 1000px;
+    margin: 0 auto;
+}
+.carousel-indicators{
+    margin-bottom: -20px
 }
