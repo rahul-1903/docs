@@ -232,7 +232,7 @@ a i:hover{
 
 
 .carousel{
-    width: 800px;
+    width: auto;
     margin: 0 auto;
 }
 .carousel-indicators{
