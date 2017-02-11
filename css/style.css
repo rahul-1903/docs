@@ -1,0 +1,216 @@
+.body{
+    background: grey;
+}
+
+
+.navbar-head{
+    font-size: 40px;
+    color: purple;
+    font-family: monospace;
+    text-decoration: none;
+    
+}
+
+.navbar-head:hover{
+    color: brown;
+}
+.navbar-header a:hover{
+    color: brown;
+    transition: 1s;
+    text-decoration: none;
+    
+}
+
+.li{
+	float: right;
+	position: fixed;
+}
+
+ul li{
+    padding: 5px;
+    font-size: 20px;
+}
+ul li:hover{
+    background: silver;
+    transition: 1s;
+}
+
+
+.about-overlay{
+    background: grey;
+    position: relative;
+    
+}
+.about-container{
+    
+    background: silver;
+    width: 80%;
+}
+.description{
+    padding: 100px;
+    font-weight: bold;
+    line-height: 2;
+    font-size: 20px;
+    color: white;
+}
+.photo img{
+    padding: 40px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.black{
+    border: 3px white solid;
+    width: 60%;
+    margin-left: 0;
+    position: absolute;
+}
+.icon{
+    padding-left: 440px;
+    position: absolute;
+    font-size: 40px;
+}
+.icon1{
+    padding-left: 480px;
+    position: absolute;
+    font-size: 40px;
+}
+#down{
+    padding-top: 60px;
+}
+
+.section-overlay{
+    background: grey;
+    
+}
+.section-under-overlay{
+    background: #f1f1f1;
+    width: 80%;
+    border-bottom: 2px solid white;
+}
+.section-heading{
+    font-size: 35px; 
+    padding: 20px;
+    font-weight: 600;
+    
+    
+}
+.underline{
+    width:10%;
+    border: 1px solid black;
+}
+
+.portfolio-photos{
+    padding: 40px;
+}
+.portfolio-photos img{
+    padding: 20px;
+    margin-left: 10px;
+    width: 90%;
+    border-radius: 50px;
+}
+
+.contact-overlay{
+    background: grey;
+}
+form{
+    padding: 40px;
+}
+
+
+input{
+    border: transparent;
+    font-size: 30px;
+}
+input[type="submit"]{
+    font-size: 20px;
+    padding: 0px 20px;
+    margin-top: 40px;
+}
+input[type="submit"]:hover{
+    background: grey;
+    border: 1px solid brown;
+    transition: 0.5s;
+}
+textarea{
+    resize: none;
+    border: transparent;
+    border-bottom: 1px solid silver;
+    font-size: 20px;
+}
+textarea:hover,
+textarea:active,
+textarea:focus{
+    border-bottom: 2px solid silver;
+    border-color: none;
+}
+
+
+.contact-des{
+    padding: 40px;
+    font-weight: bold;
+    line-height: 2;
+    font-size: 20px;
+    color: grey;
+    font-family: cursive;
+}
+.note{
+    padding: 40px;
+    font-weight: bold;
+    line-height: 2;
+    font-size: 20px;
+    color: grey;
+    font-family: cursive;
+}
+
+.made-by{
+    background: silver;
+}
+.heading-left{
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+    font-weight: 700;
+}
+
+.under-heading{
+    color: white;
+    font-size: 25px;
+}
+.under-heading i{
+    color: grey;
+}
+.under-heading i:hover{
+    font-size: 30px;
+    color: purple;
+    transition: 0.5s;
+    
+}
+.under-heading a{
+    text-decoration: none;
+    
+}
+a:hover{
+    color: purple;
+    transition: 0.5s;
+}
+
+a i:hover{
+    color: purple;
+    transition: 0.5s;
+    font-size: 30px;
+}
+.heading-right{
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+    margin-left: -60px;
+    font-weight: 700;
+}
+
+.editing{
+    padding: 50px;
+    font-size: 30px;
+    background: purple;
+    color: white;
+}
