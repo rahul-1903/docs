@@ -112,13 +112,17 @@ ul li:hover{
     background: grey;
 }
 form{
-    padding: 40px;
+    padding: 50px;
 }
 
 
-input{
+input[type="text"],input[type="email"],textarea{
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
     border: transparent;
-    font-size: 30px;
+    border-bottom: 2px solid silver;
+    font-size:20px;
 }
 input[type="submit"]{
     font-size: 20px;
@@ -131,17 +135,21 @@ input[type="submit"]:hover{
     transition: 0.5s;
 }
 textarea{
-    resize: none;
+    display: flex;
     border: transparent;
-    border-bottom: 1px solid silver;
+    border-bottom: 2px solid silver;
     font-size: 20px;
+    width: 100%;
+    max-width: 400px;
+    resize: none;
+    
 }
+input[type="text"]:hover,input[type="email"]:hover,
 textarea:hover,
 textarea:active,
 textarea:focus{
     border-bottom: 3px solid silver;
     border-color: none;
-    resize: none;
 }
 
 
@@ -235,6 +243,7 @@ a i:hover{
     width: auto;
     margin: 0 auto;
 }
+
 .carousel-indicators{
     margin-bottom: -20px
 }
