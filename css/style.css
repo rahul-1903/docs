@@ -37,6 +37,7 @@ ul li:hover{
 .about-overlay{
     background: grey;
     position: relative;
+    padding-top: 60px;
     
 }
 .about-container{
