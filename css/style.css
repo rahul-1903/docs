@@ -1,9 +1,6 @@
 .body{
     background: grey;
 }
-
-
-
 .navbar-head{
     font-size: 40px;
     color: purple;
@@ -21,9 +18,6 @@
     text-decoration: none;
     
 }
-
-
-
 ul li{
     padding: 5px;
     font-size: 20px;
@@ -35,9 +29,8 @@ ul li:hover{
 
 
 .about-overlay{
-    background: grey;
+    background: silver;
     position: relative;
-    padding-top: 60px;
     
 }
 .about-container{
@@ -124,7 +117,6 @@ input[type="text"],input[type="email"],textarea{
     border: transparent;
     border-bottom: 2px solid silver;
     font-size:20px;
-    outline: none;
 }
 input[type="submit"]{
     font-size: 20px;
@@ -144,7 +136,6 @@ textarea{
     width: 100%;
     max-width: 400px;
     resize: none;
-    outline: none;
     
 }
 input[type="text"]:hover,input[type="email"]:hover,
@@ -252,4 +243,107 @@ a i:hover{
 }
 .grey{
     background-color: silver;
+}
+/* what to do */
+.what{
+    font-size: 40px;
+    color: grey;
+    padding-top: 50px;
+}
+.cog-color{
+    color: grey;
+    padding-bottom: 20px;
+}
+
+.development{
+    font-size: 30px;
+    font-weight: bold;
+    color: grey;
+    padding: 10px;
+}
+.language{
+    font-size: 25px;
+    font-weight: lighter;
+    color: grey;
+    padding-bottom: 25px;
+    font-family: serif;
+}
+.c-logo{
+    width: 70px;
+    height: 70px;
+}
+.js-logo{
+    width: 110px;
+    height: 70px;
+}
+.python-logo{
+    width: 140px;
+    height: 50px;
+}
+.web{
+    font-size: 25px;
+    padding: 30px;
+    color: grey;
+    font-weight: lighter;
+    font-family: serif;
+}
+.html-logo{
+    width: 70px;
+}
+.css-logo{
+    width: 55px;
+}
+.bootstrap-logo{
+    width: 100px;
+    padding-top: 15px;
+    margin-right: -10px;
+}
+.git-logo{
+    width: 100px;
+}
+
+.tools{
+    font-size: 30px;
+    font-family: cursive;
+    padding-top: 20px;
+}
+.os{
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: cursive;
+}
+.ubuntu-logo{
+    width: 100px;
+}
+.windows-logo{
+     width: 100px;   
+}
+.mac-logo{
+    width: 90px;
+}
+.ps-logo{
+    width: 100px;
+}
+.atom-logo{
+    width: 60px;
+}
+.vim-logo{
+    padding-left: 5px;
+    width: 70px;
+}
+.visualStudio-logo{
+    margin-left: -5px;
+    width: 100px;
+}
+.notepad-logo{
+    width: 70px;
+}
+
+.started{
+    font-size: 25px;
+    padding: 30px;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+    padding-bottom: 60px;
 }
