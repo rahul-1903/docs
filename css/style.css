@@ -1,6 +1,7 @@
 .body{
     background: grey;
 }
+
 .navbar-head{
     font-size: 40px;
     color: purple;
@@ -27,14 +28,16 @@ ul li:hover{
     transition: 1s;
 }
 
-
 .about-overlay{
     background: silver;
     position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100%;
+    
     
 }
 .about-container{
-    
     background: silver;
     width: 80%;
 }
@@ -47,7 +50,7 @@ ul li:hover{
 }
 .photo img{
     padding: 40px;
-    width: 100%;
+    width: 80%;
     border-radius: 50%;
 }
 
@@ -221,7 +224,8 @@ a i:hover{
 .editing{
     padding: 50px;
     font-size: 30px;
-    background: purple;
+    background: black;
+    opacity: 0.7;
     color: white;
 }
 
@@ -346,4 +350,24 @@ a i:hover{
     font-style: italic;
     font-weight: bold;
     padding-bottom: 60px;
+}
+
+.green{
+    color: green;
+    font-family: cursive;
+    font-weight: bold;
+}
+.what-i-can-do{
+    
+    background-image: url(../img/background.jpg);
+    opacity: 0.9;
+    padding-bottom: 20px;
+    
+}
+.what-i-can-do p{
+    padding: 0px;
+    font-size: 20px;
+    font-family: lighter;
+    color: white;
+    
 }
